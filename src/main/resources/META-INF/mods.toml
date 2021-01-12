@@ -28,27 +28,8 @@ displayName="Dispenser Crash Fix" #mandatory
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="Love, Cheese and small house plants" #optional
+authors="Tfarecnim" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-
+Fixes a vanilla bug where placing fire on the side of a nether portal crashes the game
 '''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[33.0.22,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
-    ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
-    side="BOTH"
-# Here's another dependency
-[[dependencies.examplemod]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.16.2,)"
-    ordering="NONE"
-    side="BOTH"
